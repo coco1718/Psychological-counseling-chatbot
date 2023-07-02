@@ -11,7 +11,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 import json
 
 #https://docs.streamlit.io/library/advanced-features/caching
-#@st.cache_resource(allow_output_mutation=True)
+#@st.cache_resource(allow_output_mutation=True) 이 상태에선 오류남
 @st.cache_resource
 def cached_model():
     model = SentenceTransformer('jhgan/ko-sroberta-multitask')
