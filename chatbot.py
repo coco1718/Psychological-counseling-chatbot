@@ -27,7 +27,7 @@ model = cached_model()
 df = get_dataset()
 
 st.header('착한 챗봇')
-st.markdown("[❤️화성민의 별](https://www.youtube.com/c/빵형의개발도상국)")
+st.markdown("[❤️화성민의 별❤️](https://www.youtube.com/c/빵형의개발도상국)")
 
 if 'generated' not in st.session_state:
     st.session_state['generated'] = []
